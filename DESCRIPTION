@@ -1,10 +1,15 @@
 Package: mzmlview
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1
+Title: Extract header information from mzML files
+Version: 0.1.0
 Date: 2016-05-13
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Kenji OHGANE
+Maintainer: Kenji OHGANE <ohgane@me.com>
+Description: This package provides some functions that can be used for 
+  optimizing experimental conditions for mass spectrometric experiments.
+  Specifically, a function in this package allows you to conveniently access 
+  to the header information of a mzML file and to retrieve scan number, 
+  injection time and so on. 
+License: file LICENSE
 LazyData: TRUE
+RoxygenNote: 5.0.1
